@@ -5,6 +5,13 @@ An Android library with two Siri-inspired voice-assistant animations, rendered p
 - **Orb**: a dark glass sphere with large, translucent fans of colored light that turn in 3D around a white-hot core, a thin glassy rim and a soft glow.
 - **Horizontal band**: a flowing, multicolored ribbon of light with a bright center and soft glow.
 
+<p align="center">
+  <img src="docs/images/orb.png" alt="Demo app showing the orb style: a dark glass sphere with translucent fans of pink and blue light around a white core" width="300">
+  &nbsp;&nbsp;
+  <img src="docs/images/band.png" alt="Demo app showing the horizontal band style: a glowing ribbon of cyan, magenta and blue light near the bottom of an assistant screen" width="300">
+</p>
+<p align="center"><sub>The demo app on a phone: orb (left) and horizontal band (right), speaking state.</sub></p>
+
 You can use either style as a **Jetpack Compose composable** (`SiriAnimation`) or as a **classic View** (`SiriAnimationView`). Both share the same rendering engine.
 
 > This project is not affiliated with or endorsed by Apple. It uses no Apple assets. The visuals are original procedural recreations.
