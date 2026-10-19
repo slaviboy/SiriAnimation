@@ -1,0 +1,4 @@
+jdk:
+  - openjdk17
+install:
+  - ./gradlew :sirianimation:publishToMavenLocal -PVERSION_NAME=$VERSION
